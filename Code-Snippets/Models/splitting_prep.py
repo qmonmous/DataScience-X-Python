@@ -1,5 +1,5 @@
-X = df['add_all_features_labels']
-y = df['add_target_label']
+X = df['add_all_features']
+y = df['add_target']
 
 from sklearn.model_selection import train_test_split
 

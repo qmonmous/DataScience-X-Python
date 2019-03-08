@@ -3,12 +3,12 @@
 import seaborn as sns
 
 #Make sure you work only on features X
-sns.heatmap(data=X.corr(), annot=True).set_title('Corrélations des différentes variables')
+sns.heatmap(data=X.corr(), annot=True).set_title('variables correlations')
 
-#To choose what the features we should remove, we'll use Variance Inflation Factor (VIF).
+#To choose what features we should remove, we'll use Variance Inflation Factor (VIF).
 #We will onky keep all features if VIF < 5. If not, we'll remove the feature with the highest VIF and then run the snippet again.
 
 vif = pd.DataFrame()
 vif["VIF Factor"] = [variance_inflation_factor(X.values, i) for i in range(X.shape[1])]
-vif["features"] = X.columns
+vif["features"] = X.columns 
 vif.round(1)
