@@ -4,15 +4,15 @@ In this article, we are going to see how you should organize your machine learni
 
 Here are the different step we are going to go through.
 
-- Introduction
+Intro. Requirements
 
-I. Data loading and overview
-- Loading the data
-- Overview
+[I. Data loading and overview](#one)
+- [a. Loading the data](#one-a)
+- [b. Overview](#one-b)
 
-II. Data cleaning
-- Duplicated and missing values
-- Deal with outliers
+[II. Data cleaning](#two)
+- [a. Duplicated and missing values](#two-a)
+- [b. Deal with outliers](#two-b)
 
 III. Features engineering  
 - Transformations
@@ -30,9 +30,9 @@ V. Hyperparameters tuning
 VI. Training and predictions  
 
 
-## 0. Introduction and requirements
+## Intro. Requirements
 
-Before starting, you need to setup your developing environement. If you didn’t, please follow this easy tutorial to get started.
+Before starting, you need to setup your developing environment. If you didn’t, please follow this easy tutorial to get started.
 Also, be aware that some bullets points highlighted below imply a basic understanding of different mathematic concepts. I highly recommand you read/keep aside this article on Statistics Basics if you are not confident at all with mathematics.
 
 
