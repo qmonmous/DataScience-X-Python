@@ -1,5 +1,7 @@
 # From NLP basics to Chatbots making using Dialogflow
 
+## Introduction
+
 This article isn't written yet. Please don't keep reading.
 
 Natural Language Processing (NLP) is about how to get meaningful outputs in response to human language inputs.
@@ -10,3 +12,7 @@ The second step is to build the convertional architecture.
 Then you should think of the different variations of questions your customers could have for something.  
 Now you have to set up the dialog flow using NLP.
 We could use Deep Learning, implementing large conversational dataset, but it won't fit our specific needs. Here we'll use Dialogflow as it provides pretty cool tools for creating valuable chatbots.
+
+## Get started with Dialogflow
+
+### Build your first agent
