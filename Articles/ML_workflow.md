@@ -2,17 +2,18 @@
 
 In this article, we are going to see how you should organize your machine learning workflow. I also include some examples using python's libraries.
 
----
-
 Here are the different step we are going to go through.
 
-0. Introduction  
+0. Introduction
+
 I. Data loading and cleaning
 - Loading the data
 - Overview
+
 II. Data cleaning
 - Duplicated and missing values
 - Deal with outliers
+
 III. Features engineering  
 - Transformations
 - Features creations and deletions
@@ -26,11 +27,10 @@ IV. Model selection
 
 V. Hyperparameters tuning  
 
-
 VI. Training and predictions  
 
 
-0. Introduction and requirements
+## 0. Introduction and requirements
 
 Before starting, you need to setup your developing environement. If you didn’t, please follow this easy tutorial to get started.
 Also, be aware that some bullets points highlighted below imply a basic understanding of different mathematic concepts. I highly recommand you read/keep aside this article on Statistics Basics if you are not confident at all with mathematics.
@@ -42,7 +42,7 @@ The very first step is to load your data. I assume you are working with Python.
 
 ### b. Overview
 
-In Machine Learning, we want to build a model capable of predicting one of these variables (called the target) thanks to the others (called the features). Here, our target will be variable3 and our features to do it variable1 and 2. We say that our model has currently two dimensions (i.e. two features).  
+In Machine Learning, we want to build a model capable of predicting one of these variables (called the target) thanks to the others (called the features). Here, our target will be variable3 and our features to do it variable1 and 2. We say that our model has currently two dimensions (i.e. two features).
 
 First of all, we want to know what kind of values we want to predict. This will tell us what kind of algorithms use to build our model. The variables can be:
 categorical (qualitative) : who/what/what kind
