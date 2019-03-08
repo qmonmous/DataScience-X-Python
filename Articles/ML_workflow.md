@@ -7,8 +7,8 @@ Here are the different step we are going to go through.
 Intro. Requirements
 
 [I. Data loading and overview](#one)
-- [a. Loading the data](#one-a)
-- [b. Overview](#one-b)
+- a. [Loading the data](#one-a)
+- b. [Overview](#one-b)
 
 [II. Data cleaning](#two)
 - [a. Duplicated and missing values](#two-a)
