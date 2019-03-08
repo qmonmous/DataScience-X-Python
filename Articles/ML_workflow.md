@@ -4,9 +4,9 @@ In this article, we are going to see how you should organize your machine learni
 
 Here are the different step we are going to go through.
 
-0. Introduction
+- Introduction
 
-I. Data loading and cleaning
+I. Data loading and overview
 - Loading the data
 - Overview
 
@@ -38,7 +38,27 @@ Also, be aware that some bullets points highlighted below imply a basic understa
 
 ## I. Data loading and overview
 
-The very first step is to load your data. I assume you are working with Python.
+The very first step is to import the essential libraries.
+
+```python
+import os
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+
+%matplotlib inline
+```
+
+Now we load the data.
+
+```python
+FILEPATH = os.path.join('data', 'dataset.csv')
+
+df = pd.read_csv(FILEPATH, index_col=0)
+df.head(2)
+```
 
 ### b. Overview
 
