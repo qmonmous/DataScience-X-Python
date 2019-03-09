@@ -10,27 +10,27 @@ Here are the different step we are going to go through.
 - [a. Loading the data](#one-a)
 - [b. Overview](#one-b)
 
-[II. Data cleaning](#two)
+**[II. Data cleaning](#two)**
 - [a. Duplicated and missing values](#two-a)
 - [b. Deal with outliers](#two-b)
 
-[III. Features engineering](#three)
+**[III. Features engineering](#three)**
 - Transformations
 - Features creations and deletions
 - Dimensional reductions
 
-[IV. Model selection](#four)
+**[IV. Model selection](#four)**
 - Split
 - Metrics
 - Models stability (Cross-Validation)
 - Check over/underfit
 
-V. Hyperparameters tuning  
+**[V. Hyperparameters tuning](#five)**
 
-VI. Training and predictions  
+**[VI. Training and predictions](#six)**
 
-
-## Intro. Requirements <a id="zero"></a>
+<a id="zero"></a>
+## Intro. Requirements 
 
 Before starting, you need to setup your developing environment. If you didn’t, please follow this easy tutorial to get started.
 Also, be aware that some bullets points highlighted below imply a basic understanding of different mathematic concepts. I highly recommand you read/keep aside this article on Statistics Basics if you are not confident at all with mathematics.
