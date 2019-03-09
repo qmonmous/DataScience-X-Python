@@ -4,9 +4,9 @@ In this article, we are going to see how you should organize your machine learni
 
 Here are the different step we are going to go through.
 
-#### [Intro. Requirements](#zero)
+**[Intro. Requirements](#zero)**
 
-#### [I. Data loading and overview](#one)
+**[I. Data loading and overview](#one)**
 - [a. Loading the data](#one-a)
 - [b. Overview](#one-b)
 
