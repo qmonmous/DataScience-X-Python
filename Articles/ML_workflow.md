@@ -4,9 +4,9 @@ In this article, we are going to see how you should organize your machine learni
 
 Here are the different step we are going to go through.
 
-Intro. Requirements
+#### [Intro. Requirements](#zero)
 
-[I. Data loading and overview](#one)
+#### [I. Data loading and overview](#one)
 - [a. Loading the data](#one-a)
 - [b. Overview](#one-b)
 
@@ -14,12 +14,12 @@ Intro. Requirements
 - [a. Duplicated and missing values](#two-a)
 - [b. Deal with outliers](#two-b)
 
-III. Features engineering  
+[III. Features engineering](#three)
 - Transformations
 - Features creations and deletions
 - Dimensional reductions
 
-IV. Model selection  
+[IV. Model selection](#four)
 - Split
 - Metrics
 - Models stability (Cross-Validation)
@@ -30,13 +30,13 @@ V. Hyperparameters tuning
 VI. Training and predictions  
 
 
-## Intro. Requirements
+## Intro. Requirements <a id="zero"></a>
 
 Before starting, you need to setup your developing environment. If you didn’t, please follow this easy tutorial to get started.
 Also, be aware that some bullets points highlighted below imply a basic understanding of different mathematic concepts. I highly recommand you read/keep aside this article on Statistics Basics if you are not confident at all with mathematics.
 
 
-## I. Data loading and overview
+## I. Data loading and overview <a id="one"></a>
 
 ### a. Loading the data <a id="one-a"></a>
 The very first step is to import the essential libraries.
@@ -80,9 +80,9 @@ When unsupervised learning:
 
 Now we have a purpose and a way to get to that. Time to clean our data before starting to think our model.
 
-## II. Data cleaning
+## II. Data cleaning <a id="two"></a>
 
-### a. Duplicated and missing values
+### a. Duplicated and missing values <a id="two-a"></a>
 
 Sometimes rows are duplicated so you just need to remove the duplications.  
 You can also find missing values that you can choose to remove or try to fill (by doing a mean imputation/mod imput (If numerical) or binarization (if categorical)).
@@ -91,6 +91,9 @@ You can also find missing values that you can choose to remove or try to fill (b
 #Count the number of duplicated rows
 df.duplicated().sum()
 
+#Drop the duplicates
+df.drop_duplicates()
+
 #Count the number of NaN values for each column
 df.isna().sum()
 
@@ -98,13 +101,9 @@ df.isna().sum()
 df = df.dropna()
 ```
 
-### b. Deal with outliers
+### b. Deal with outliers <a id="two-b"></a>
 
 Outliers are extreme values that can damage our model. We can find outliers on a single variable (by plotting a boxplot) or in the relationship between two variables (by plotting a scatterplot). 
-
-Note: If you want to avoid working too visually, you can consider outliers as values that are > or < at 1,5*IQR.
-
-Now how to deal with these outliers. You have to determine whether it’s an error or if the value is possible (here you’ll need a specific business knowledge).
 
 ```python
 #Visualize univariate outliers with a boxplot
@@ -112,3 +111,7 @@ plt.subplots(figsize=(18,6))
 plt.title("Outliers visualisation")
 df.boxplot();
 ```
+
+*Note: If you want to avoid working too visually, you can consider outliers as values that are > or < at 1,5.IQR.*
+
+Now how to deal with these outliers. You have to determine whether it’s an error or if the value is possible (here you’ll need a specific business knowledge).
