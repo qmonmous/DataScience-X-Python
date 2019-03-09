@@ -6,7 +6,7 @@ Here are the different step we are going to go through.
 
 Intro. Requirements
 
-[I. Data loading and overview](#one)
+I. [Data loading and overview](#one)
 - a. [Loading the data](#one-a)
 - b. [Overview](#one-b)
 
@@ -38,6 +38,7 @@ Also, be aware that some bullets points highlighted below imply a basic understa
 
 ## I. Data loading and overview
 
+### a. Loading the data <a id="one-a"></a>
 The very first step is to import the essential libraries.
 
 ```python
@@ -60,16 +61,20 @@ df = pd.read_csv(FILEPATH, index_col=0)
 df.head(2)
 ```
 
-### b. Overview
+### b. Overview <a id="one-b"></a>
 
 In Machine Learning, we want to build a model capable of predicting one of these variables (called the target) thanks to the others (called the features). Here, our target will be variable3 and our features to do it variable1 and 2. We say that our model has currently two dimensions (i.e. two features).
 
-First of all, we want to know what kind of values we want to predict. This will tell us what kind of algorithms use to build our model. The variables can be:
-categorical (qualitative) : who/what/what kind
-or numerical (quantitative) : how much
+First of all, we want to know what kind of values we have to predict. This will tell us what kind of algorithms use to build our model. When target values are provided (i.e. labeled data), we talk about supervised learning. When there aren't, we talk about unsupervised learning. Target can be:
+- **categoricals** (qualitative) : who/what/what kind  
+- **numericals** (quantitative) : how much 
 
-If the target is categorical, we will make a classification. If the target is numerical, we will make a regression.
-If we don’t have the target values or/and don’t know what we are really looking for, we will use clustering algorithms.
+Excluding **neural networks**, there are 3 big types of ML algorithms:  
+When supervised learning:  
+- **classification** for categorical targets.
+- **regression** for numerical targets.
+When unsupervised learning:
+- **clustering** that will build clusters for us.
 
 Note: When the target is provided (labeled data), the learning is supervised (classications and regressions). When it’s not, the learning is unsupervised (clusterings).
 
