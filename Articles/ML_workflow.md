@@ -71,10 +71,10 @@ First of all, we want to know what kind of values we have to predict. This will 
 
 Excluding **neural networks**, there are 3 big types of ML algorithms:  
 When supervised learning:  
-- **classification** for categorical targets.
-- **regression** for numerical targets.
+– **classification** for categorical targets.
+– **regression** for numerical targets.  
 When unsupervised learning:
-- **clustering** that will build clusters for us.
+– **clustering** that will build clusters for us.
 
 Note: When the target is provided (labeled data), the learning is supervised (classications and regressions). When it’s not, the learning is unsupervised (clusterings).
 
