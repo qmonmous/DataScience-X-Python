@@ -105,3 +105,10 @@ Outliers are extreme values that can damage our model. We can find outliers on a
 Note: If you want to avoid working too visually, you can consider outliers as values that are > or < at 1,5*IQR.
 
 Now how to deal with these outliers. You have to determine whether it’s an error or if the value is possible (here you’ll need a specific business knowledge).
+
+```python
+#Visualize univariate outliers with a boxplot
+plt.subplots(figsize=(18,6))
+plt.title("Outliers visualisation")
+df.boxplot();
+```
