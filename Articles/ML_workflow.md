@@ -87,6 +87,16 @@ Now we have a purpose and a way to get to that. Time to clean our data before st
 Sometimes rows are duplicated so you just need to remove the duplications.  
 You can also find missing values that you can choose to remove or try to fill (by doing a mean imputation/mod imput (If numerical) or binarization (if categorical)).
 
+```python
+#Count the number of duplicated rows
+df.duplicated().sum()
+
+#Count the number of NaN values for each column
+df.isna().sum()
+
+#Drop all NaN values
+df = df.dropna()
+```
 
 ### b. Deal with outliers
 
