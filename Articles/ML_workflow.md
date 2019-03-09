@@ -65,16 +65,17 @@ df.head(2)
 
 In Machine Learning, we want to build a model capable of predicting one of these variables (called the target) thanks to the others (called the features). Here, our target will be variable3 and our features to do it variable1 and 2. We say that our model has currently two dimensions (i.e. two features).
 
-First of all, we want to know what kind of values we have to predict. This will tell us what kind of algorithms use to build our model. When target values are provided (i.e. labeled data), we talk about supervised learning. When there aren't, we talk about unsupervised learning. Target can be:
+First of all, we want to know what kind of values we have to predict. This will tell us what kind of algorithms use to build our model. When target values are provided (i.e. labeled data), we talk about supervised learning. When there aren't, we talk about unsupervised learning. Targets can be:
 - **categoricals** (qualitative) : who/what/what kind  
 - **numericals** (quantitative) : how much 
 
 Excluding **neural networks**, there are 3 big types of ML algorithms:  
 When supervised learning:  
-– **classification** for categorical targets.  
-– **regression** for numerical targets.  
+- **classification** for categorical targets.  
+- **regression** for numerical targets.  
+
 When unsupervised learning:  
-– **clustering** that will build clusters for us.
+- **clustering** that will build clusters for us.
 
 Note: When the target is provided (labeled data), the learning is supervised (classications and regressions). When it’s not, the learning is unsupervised (clusterings).
 
