@@ -6,9 +6,9 @@ Here are the different step we are going to go through.
 
 Intro. Requirements
 
-I. [Data loading and overview](#one)
-- a. [Loading the data](#one-a)
-- b. [Overview](#one-b)
+[I. Data loading and overview](#one)
+- [a. Loading the data](#one-a)
+- [b. Overview](#one-b)
 
 [II. Data cleaning](#two)
 - [a. Duplicated and missing values](#two-a)
@@ -70,6 +70,7 @@ First of all, we want to know what kind of values we have to predict. This will 
 - **numericals** (quantitative) : how much 
 
 Excluding **neural networks**, there are 3 big types of ML algorithms:  
+
 When supervised learning:  
 - **classification** for categorical targets.  
 - **regression** for numerical targets.  
@@ -77,6 +78,20 @@ When supervised learning:
 When unsupervised learning:  
 - **clustering** that will build clusters for us.
 
-Note: When the target is provided (labeled data), the learning is supervised (classications and regressions). When it’s not, the learning is unsupervised (clusterings).
-
 Now we have a purpose and a way to get to that. Time to clean our data before starting to think our model.
+
+## II. Data cleaning
+
+### a. Duplicated and missing values
+
+Sometimes rows are duplicated so you just need to remove the duplications.  
+You can also find missing values that you can choose to remove or try to fill (by doing a mean imputation/mod imput (If numerical) or binarization (if categorical)).
+
+
+### b. Deal with outliers
+
+Outliers are extreme values that can damage our model. We can find outliers on a single variable (by plotting a boxplot) or in the relationship between two variables (by plotting a scatterplot). 
+
+Note: If you want to avoid working too visually, you can consider outliers as values that are > or < at 1,5*IQR.
+
+Now how to deal with these outliers. You have to determine whether it’s an error or if the value is possible (here you’ll need a specific business knowledge).
