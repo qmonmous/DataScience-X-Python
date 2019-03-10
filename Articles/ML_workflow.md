@@ -35,10 +35,11 @@ Here are the different step we are going to go through.
 Before starting, you need to setup your developing environment. If you didn’t, please follow this easy tutorial to get started.
 Also, be aware that some bullets points highlighted below imply a basic understanding of different mathematic concepts. I highly recommand you read/keep aside this article on Statistics Basics if you are not confident at all with mathematics.
 
+<a id="one"></a>
+## I. Data loading and overview
 
-## I. Data loading and overview <a id="one"></a>
-
-### a. Loading the data <a id="one-a"></a>
+<a id="one-a"></a>
+### a. Loading the data
 The very first step is to import the essential libraries.
 
 ```python
@@ -60,8 +61,8 @@ FILEPATH = os.path.join('data', 'dataset.csv')
 df = pd.read_csv(FILEPATH, index_col=0)
 df.head(2)
 ```
-
-### b. Overview <a id="one-b"></a>
+<a id="one-b"></a>
+### b. Overview
 
 In Machine Learning, we want to build a model capable of predicting one of these variables (called the target) thanks to the others (called the features). Here, our target will be variable3 and our features to do it variable1 and 2. We say that our model has currently two dimensions (i.e. two features).
 
@@ -80,9 +81,11 @@ When unsupervised learning:
 
 Now we have a purpose and a way to get to that. Time to clean our data before starting to think our model.
 
-## II. Data cleaning <a id="two"></a>
+<a id="two"></a>
+## II. Data cleaning
 
-### a. Duplicated and missing values <a id="two-a"></a>
+<a id="two-a"></a>
+### a. Duplicated and missing values
 
 Sometimes rows are duplicated so you just need to remove the duplications.  
 You can also find missing values that you can choose to remove or try to fill (by doing a mean imputation/mod imput (If numerical) or binarization (if categorical)).
@@ -100,10 +103,14 @@ df.isna().sum()
 #Drop all NaN values
 df = df.dropna()
 ```
+<a id="two-b"></a>
+### b. Deal with outliers
 
-### b. Deal with outliers <a id="two-b"></a>
+Outliers are extreme values that can damage our model. We can find univariate outliers on a single variable or multivariate outliers in the relationship between two variables.  
+You'll have to determine whether there are errors or if values are possible (here you’ll probably need a specific business knowledge). If there aren't legit, you'll have to delete them.
 
-Outliers are extreme values that can damage our model. We can find outliers on a single variable (by plotting a boxplot) or in the relationship between two variables (by plotting a scatterplot). 
+**Handle univariate outliers**
+We can detect univariate outliers visually by plotting a boxplot...
 
 ```python
 #Visualize univariate outliers with a boxplot
@@ -112,6 +119,23 @@ plt.title("Outliers visualisation")
 df.boxplot();
 ```
 
-*Note: If you want to avoid working too visually, you can consider outliers as values that are > or < at 1,5.IQR.*
+... or by considering outliers as:
+- mistyped data points, using sigma-clipping operations.
+- data points that fall outside of 1,5*IQR above the 3rd quartile and below the 1st quartile.
+- data points that fall outside of 3 standard deviations, using z-score.
 
-Now how to deal with these outliers. You have to determine whether it’s an error or if the value is possible (here you’ll need a specific business knowledge).
+```python
+#Delete univariate outliers using sigma-clipping operations
+quartiles = np.percentile(df['usd_goal_real'], [25, 50, 75])
+mu = quartiles[1]
+sig = 0.74 * (quartiles[2] - quartiles[0])
+
+df = df.query('(usd_goal_real > @mu - 5 * @sig) & (usd_goal_real < @mu + 5 * @sig)')
+#Delete univariate outliers using IQR
+quartiles = np.percentile(df['feature'], [25, 50, 75])
+mu = quartiles[1]
+sig = 0.74 * (quartiles[2] - quartiles[0])
+
+df = df.query('(feature > @mu - 5 * @sig) & (feature < @mu + 5 * @sig)')
+````
+
