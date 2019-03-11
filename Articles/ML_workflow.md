@@ -1,6 +1,6 @@
 # How to organize your Machine Learning workflow
 
-In this article, we are going to see how you should organize your machine learning workflow. I also include some examples using python's libraries.
+In this article, we are going to see how you should organize your machine learning workflow. It also includes some examples using python's libraries.
 
 Here are the different step we are going to go through.
 
@@ -79,7 +79,7 @@ When supervised learning:
 When unsupervised learning:  
 - **clustering** that will build clusters for us.
 
-Now we have a purpose and a way to get to that. Time to clean our data before starting to think our model.
+In our example, the target is provided so our model will learn from its values. We want to predict a numerical target so we will use regression algorithms.
 
 <a id="two"></a>
 ## II. Data cleaning
@@ -107,9 +107,8 @@ df = df.dropna()
 ### b. Deal with outliers
 
 Outliers are extreme values that can damage our model. We can find univariate outliers on a single variable or multivariate outliers in the relationship between two variables.  
-You'll have to determine whether there are errors or if values are possible (here you’ll probably need a specific business knowledge). If there aren't legit, you'll have to delete them.
+You'll have to determine whether they are errors or if they are possible (here you’ll probably need a specific business knowledge). If they aren't legit, you'll have to delete them.
 
-**Handle univariate outliers**
 We can detect univariate outliers visually by plotting a boxplot...
 
 ```python
@@ -126,11 +125,12 @@ df.boxplot();
 
 ```python
 #Delete univariate outliers using sigma-clipping operations
-quartiles = np.percentile(df['usd_goal_real'], [25, 50, 75])
+quartiles = np.percentile(df['feature'], [25, 50, 75])
 mu = quartiles[1]
 sig = 0.74 * (quartiles[2] - quartiles[0])
 
-df = df.query('(usd_goal_real > @mu - 5 * @sig) & (usd_goal_real < @mu + 5 * @sig)')
+df = df.query('(feature > @mu - 5 * @sig) & (feature < @mu + 5 * @sig)')
+
 #Delete univariate outliers using IQR
 quartiles = np.percentile(df['feature'], [25, 50, 75])
 mu = quartiles[1]
