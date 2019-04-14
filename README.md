@@ -4,11 +4,9 @@
 
 This repository provides cheatsheets and code snippets for applied data science (with Python).
 
-**[I. Data loading and overview](#one)**  
--- [Loading the data](#one-a)  
--- [Overview](#one-b)
+**[I. Probability and Statistics Basics](I. Probability and Statistics Basics)**  
 
-**[II. Data Cleaning](#two)**  
+**[II. Data Cleaning](II. Data Cleaning)**  
 -- [Duplicated and missing values](Metrics)  
 -- [Outliers](Models/Regressors)
 
@@ -35,8 +33,8 @@ This repository provides cheatsheets and code snippets for applied data science 
 • Classifiers  
 • Regressors  
 • Under/overfitting: Bias-Variance Tradeoff  
+• Hyperparameters tuning  
 
-**[V. Hyperparameters tuning](#five)**  
 
 
 
