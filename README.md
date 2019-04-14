@@ -29,13 +29,19 @@ This repository provides cheatsheets and code snippets for applied data science 
 -- • Dimensional reductions  
 -- -- • PCA  
 
-**[IV. Supervised Modeling](#four)**  
+**[IV. Supervised Machine Learning](#four)**  
 • Classifiers  
 • Regressors  
 • Under/overfitting: Bias-Variance Tradeoff  
 • Hyperparameters tuning  
 
+**[IV. Unsupervised Machine Learning](#four)**  
+• Clustering  
 
+**[V. Time Series Analysis](#six)**  
 
+**[VI. Graph Theory & Network Analysis](#six)**  
 
-**[VI. Training and predictions](#six)**  
+**[VII. NLP (Natural Language Processing)](#six)**  
+
+**[VIII. Neural Networks: CNN, RNN](#six)**
