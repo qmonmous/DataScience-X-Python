@@ -4,9 +4,9 @@
 
 This repository provides cheatsheets and code snippets for applied data science (with Python).
 
-**[I. Probability and Statistics Basics](I. Probability and Statistics Basics)**  
+**[I. Probability and Statistics Basics](I.%20Probability%20and%20Statistics%20Basics)**  
 
-**[II. Data Cleaning](II. Data Cleaning)**  
+**[II. Data Cleaning](II.%20Data%20Cleaning)**  
 -- [Duplicated and missing values](Metrics)  
 -- [Outliers](Models/Regressors)
 
