@@ -1,5 +1,5 @@
 # Cheetsheets and Code Snippets
-This repository provides cheetsheets and code snippets for applied data science (with Python).
+This repository provides cheatsheets and code snippets for applied data science (with Python).
 
 **[I. Data loading and overview](#one)**  
 • [Loading the data](#one-a)  
