@@ -1,7 +1,40 @@
-# Machine-Learning-Algorithms-in-Python
-This repository aims at going through different machine learning algorithms and providing some (re)usable codes in Python.
+# Cheetsheets and Code Snippets
+This repository provides cheetsheets and code snippets for applied data science (with Python).
 
-## Table of Contents
-1. [Articles](https://github.com/qmonmous/ENGLISH--Machine-Learning-X-Python/tree/master/Articles) to learn about Data Science
-2. [Case Studies](https://github.com/qmonmous/ENGLISH--Machine-Learning-X-Python/tree/master/Case-Studies) to go through different Machine Learning problems
-3. [Code Snippets](https://github.com/qmonmous/ENGLISH--Machine-Learning-X-Python/tree/master/Code-Snippets) to pick some code snippets
+**[I. Data loading and overview](#one)**  
+• [Loading the data](#one-a)  
+• [Overview](#one-b)
+
+**[II. Data Cleaning](#two)**  
+• [Duplicated and missing values](Metrics)  
+• [Outliers](Models/Regressors)
+
+**[III. Features Engineering](#three)**  
+• Statistical tests  
+• Type transformations  
+-- • Categorical values  
+-- -- • One-Hot Encoding  
+-- -- • One-Hot Encoding  
+-- • Dates values  
+• Distributions  
+-- • Visualization    
+-- • Log-transformation  
+-- • Scaling  
+• Univariate visualizations  
+• Multivariate visualizations  
+• Features creations and deletions  
+-- • Features creativity  
+-- • Features deletions  
+-- • Dimensional reductions  
+-- -- • PCA  
+
+**[IV. Supervised Modeling](#four)**  
+• Classifiers  
+• Regressors  
+• Under/overfitting: Bias-Variance Tradeoff  
+
+**[V. Hyperparameters tuning](#five)**  
+
+
+
+**[VI. Training and predictions](#six)**  
