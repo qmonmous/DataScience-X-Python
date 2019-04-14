@@ -35,13 +35,13 @@ This repository provides cheatsheets and code snippets for applied data science 
 • Under/overfitting: Bias-Variance Tradeoff  
 • Hyperparameters tuning  
 
-**[IV. Unsupervised Machine Learning](#four)**  
+**[V. Unsupervised Machine Learning](#four)**  
 • Clustering  
 
-**[V. Time Series Analysis](#six)**  
+**[VI. Time Series Analysis](#six)**  
 
-**[VI. Graph Theory & Network Analysis](#six)**  
+**[VII. Graph Theory & Network Analysis](#six)**  
 
-**[VII. NLP (Natural Language Processing)](#six)**  
+**[VIII. NLP (Natural Language Processing)](#six)**  
 
-**[VIII. Neural Networks: CNN, RNN](#six)**
+**[IX. Neural Networks: CNN, RNN](#six)**
