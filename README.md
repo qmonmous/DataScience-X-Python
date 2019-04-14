@@ -14,20 +14,19 @@ This repository provides cheatsheets and code snippets for applied data science 
 - a. Statistical tests  
 - b. Type transformations  
     - Categorical values  
-    - One-Hot Encoding  
--- -- -- One-Hot Encoding  
--- -- Dates values  
--- c. Distributions  
--- -- Visualization    
--- -- Log-transformation  
--- -- Scaling  
-• Univariate visualizations  
-• Multivariate visualizations  
-• Features creations and deletions  
--- • Features creativity  
--- • Features deletions  
--- • Dimensional reductions  
--- -- • PCA  
+        - One-Hot Encoding  
+    - Dates values  
+- c. Distributions  
+    - Visualization    
+    - Log-transformation  
+    - Scaling  
+- d. Univariate visualizations  
+- e. Multivariate visualizations  
+- f. Features creations and deletions  
+    - Features creativity  
+    - Features deletions  
+    - Dimensional reductions  
+        - PCA  
 
 **[4. Supervised Machine Learning](https://github.com/qmonmous/DataScience-X-Python/tree/master/4.%20Supervised%20Modeling)**  
 • Classifiers  
