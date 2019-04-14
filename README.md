@@ -10,7 +10,7 @@ This repository provides cheatsheets and code snippets for applied data science 
 -- [Duplicated and missing values](Metrics)  
 -- [Outliers](Models/Regressors)
 
-###[3. Features Engineering](https://github.com/qmonmous/DataScience-X-Python/tree/master/3.%20Features%20Engineering)**  
+### [3. Features Engineering](https://github.com/qmonmous/DataScience-X-Python/tree/master/3.%20Features%20Engineering)  
 **a. Statistical tests**  
 - b. Type transformations  
     - Categorical values  
