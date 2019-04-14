@@ -5,28 +5,19 @@
 This repository provides cheatsheets and code snippets for applied data science (with Python).
 
 **[1. Probability & Statistics Basics](I.%20Probability%20and%20Statistics%20Basics)**  
+**a. Cheatsheet**  
+**b. Statistical tests**  
 
-**[2. Data Cleaning](II.%20Data%20Cleaning)**  
--- [Duplicated and missing values](Metrics)  
--- [Outliers](Models/Regressors)
+### [2. Data Cleaning](II.%20Data%20Cleaning)   
+**[a. Duplicated and missing values](Metrics)**  
+**[b. Outliers](Models/Regressors)**  
 
 ### [3. Features Engineering](https://github.com/qmonmous/DataScience-X-Python/tree/master/3.%20Features%20Engineering)  
-**a. Statistical tests**  
-- b. Type transformations  
-    - Categorical values  
-        - One-Hot Encoding  
-    - Dates values  
-- c. Distributions  
-    - Visualization    
-    - Log-transformation  
-    - Scaling  
-- d. Univariate visualizations  
-- e. Multivariate visualizations  
-- f. Features creations and deletions  
-    - Features creativity  
-    - Features deletions  
-    - Dimensional reductions  
-        - PCA  
+**a. Univariate visualizations**  
+**b. Multivariate visualizations**  
+**c. Type transformations** (Categorical, dates values...)  
+**d. Distributions** (Log-transformation, Scaling)  
+**e. Features creations and deletions** (Features creativity, Dimensional reductions: PCA)  
 
 **[4. Supervised Machine Learning](https://github.com/qmonmous/DataScience-X-Python/tree/master/4.%20Supervised%20Modeling)**  
 • Classifiers  
