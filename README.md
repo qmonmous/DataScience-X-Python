@@ -4,16 +4,46 @@
 
 This repository provides cheatsheets and code snippets for applied data science (with Python).
 
-### [1. Probability & Statistics Basics](I.%20Probability%20and%20Statistics%20Basics)  
-**a. Cheatsheet**  
-**b. Statistical tests**  
+### [00. Probability & Statistics Basics](00.%20Introduction%20aux%20probabilités%20et%20statistiques.ipynb)  
 
-### [2. Data Cleaning](II.%20Data%20Cleaning)  
-**[a. Duplicated and missing values](Metrics)**  
-Mean imputation / Mod input (If numerical) or binarization (if categorical)
-**[b. Outliers](Models/Regressors)**  
+**A. Introduction aux probabilités**  
+• Concept de probabilité  
+• Théorème de Bayes
 
-### [3. Features Engineering](https://github.com/qmonmous/DataScience-X-Python/tree/master/3.%20Features%20Engineering)  
+**B. Introduction aux statistiques**  
+• Moyenne, Médiane, Mode  
+• Espérance, Variance, Écart-type  
+• Skewness et Kurtosis  
+• Biais, Poids et Degrés de liberté  
+• Fréquences  
+• Théorème Central Limite  
+
+**C. Concepts mathématiques**  
+• Dérivées et Intégrales  
+• Convexité et Concavité  
+• Descente de gradient  
+• Boosting, bagging
+
+### [01. Introduction to Machine Learning](01.%20Introduction%20au%20Machine%20Learning.ipynb)  
+
+**A. Charger et comprendre les données**
+
+• Des features pour prédire une target  
+• Déterminer la méthode de prédiction
+
+**B. Entraîner son premier modèle**
+
+### [02. Visualisations](02.%20Visualisations.ipynb)  
+
+### [03. Data Cleaning](02.%20Data%20Cleaning)  
+**A. Duplicated and missing values**  
+• Mean imputation / Mod input (If numerical) or binarization (if categorical)
+
+**B. Outliers**  
+
+### [04. Inférences statistiques]() 
+
+### [05. Features Engineering]()  
 **a. Univariate visualizations**  
 **b. Multivariate visualizations**  
 **c. Type transformations** (Categorical, dates values...)  
@@ -21,21 +51,29 @@ Mean imputation / Mod input (If numerical) or binarization (if categorical)
 **e. Features creations**  
 **f. Dimensional reduction**
 
-### [4. Supervised Machine Learning](https://github.com/qmonmous/DataScience-X-Python/tree/master/4.%20Supervised%20Modeling)  
+### [06. Supervised Machine Learning]()  
 • Classifiers  
 • Regressors  
 • Under/overfitting: Bias-Variance Tradeoff  
 • Hyperparameters tuning  
+• Méthodes ensemblistes  
 
-### [5. Unsupervised Machine Learning](https://github.com/qmonmous/DataScience-X-Python/tree/master/5.%20Unsupervised%20Machine%20Learning)  
+### [07. Unsupervised Machine Learning]()  
 • Clustering  
 
-### [6. Time Series Analysis](https://github.com/qmonmous/DataScience-X-Python/tree/master/6.%20Time%20Series%20Analysis)  
+### 08. Time Series Analysis
+•  
+•  
 
-### [7. Graph Theory & Network Analysis](https://github.com/qmonmous/DataScience-X-Python/tree/master/7.%20Graph%20Theory%20%26%20Network%20Analysis)  
+### 09. Graph Theory & Network Analysis  
+• Graph Theory  
+• Analyse de réseaux sociaux  
+• Chaînes de Markov
 
-### [8. NLP (Natural Language Processing)](https://github.com/qmonmous/DataScience-X-Python/tree/master/8.%20NLP%20(Natural%20Language%20Processing))  
+### 10. NLP (Natural Language Processing)
+• NLTK  
+• Dialogflow
 
-### [9. Deep Learning: Neural Networks](https://github.com/qmonmous/DataScience-X-Python/tree/master/9.%20Deep%20Learning:%20Neural%20Networks)  
-**a. CNN**  
-**b. RNN**  
+### 11. Deep Learning: Neural Networks
+**A. CNN**  
+**B. RNN**  
