@@ -1,10 +1,11 @@
 # DataScience X Python
 
-This repository provides cheatsheets and code snippets for applied data science (with Python).
+🇫🇷 Cours de Data Science en français  
+🇬🇧 Soon available in English
 
 ### –– _Sommaire :_
 
-[00. Probability & Statistics Basics](00.%20Introduction%20aux%20probabilités%20et%20statistiques.ipynb)  
+[00. Introduction aux probabilités et statistiques](00.%20Introduction%20aux%20probabilités%20et%20statistiques.ipynb)  
 [01. Introduction to Machine Learning](01.%20Introduction%20au%20Machine%20Learning.ipynb)  
 [02. Visualisations](02.%20Visualisations.ipynb)  
 03. Data Cleaning  
@@ -23,7 +24,7 @@ This repository provides cheatsheets and code snippets for applied data science 
 
 ### –– _Sommaire detaillé :_
 
-### [00. Probability & Statistics Basics](00.%20Introduction%20aux%20probabilités%20et%20statistiques.ipynb)  
+### [00. Introduction aux probabilités et statistiques](00.%20Introduction%20aux%20probabilités%20et%20statistiques.ipynb)  
 
 **A. Introduction aux probabilités**  
 • Concept de probabilité  
