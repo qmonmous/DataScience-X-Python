@@ -18,7 +18,8 @@ Mean imputation / Mod input (If numerical) or binarization (if categorical)
 **b. Multivariate visualizations**  
 **c. Type transformations** (Categorical, dates values...)  
 **d. Distributions** (Log-transformation, Scaling, Standardization...)  
-**e. Features creations and deletions** (Features creativity, Dimensional reductions: PCA)  
+**e. Features creations**  
+**f. Dimensional reduction**
 
 ### [4. Supervised Machine Learning](https://github.com/qmonmous/DataScience-X-Python/tree/master/4.%20Supervised%20Modeling)  
 • Classifiers  
