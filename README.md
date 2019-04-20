@@ -1,10 +1,9 @@
 # DataScience X Python
 
-## Cheatsheets and Code Snippets
-
 This repository provides cheatsheets and code snippets for applied data science (with Python).
 
-Sommaire :  
+### –– _Sommaire :_
+
 [00. Probability & Statistics Basics](00.%20Introduction%20aux%20probabilités%20et%20statistiques.ipynb)  
 [01. Introduction to Machine Learning](01.%20Introduction%20au%20Machine%20Learning.ipynb)  
 [02. Visualisations](02.%20Visualisations.ipynb)  
@@ -22,7 +21,7 @@ Sommaire :
 
 ---
 
-Sommaire detaillé :
+### –– _Sommaire detaillé :_
 
 ### [00. Probability & Statistics Basics](00.%20Introduction%20aux%20probabilités%20et%20statistiques.ipynb)  
 
@@ -55,7 +54,11 @@ Sommaire detaillé :
 
 **B. Entraîner son premier modèle**
 
+---
+
 ### [02. Visualisations](02.%20Visualisations.ipynb)  
+
+---
 
 ### 03. Data Cleaning  
 **A. Duplicated and missing values**  
@@ -63,7 +66,11 @@ Sommaire detaillé :
 
 **B. Outliers**  
 
+---
+
 ### 04. Inférences statistiques
+
+---
 
 ### 05. Features Engineering
 **a. Univariate visualizations**  
@@ -73,6 +80,8 @@ Sommaire detaillé :
 **e. Features creations**  
 **f. Dimensional reduction**
 
+---
+
 ### 06. Supervised Machine Learning  
 • Classifiers  
 • Regressors  
@@ -80,27 +89,41 @@ Sommaire detaillé :
 • Hyperparameters tuning  
 • Méthodes ensemblistes  
 
+---
+
 ### 07. Unsupervised Machine Learning
-• Clustering  
+• Clustering   
+
+---
 
 ### 08. Time Series Analysis
 •  
 •  
+
+---
 
 ### 09. Graph Theory & Network Analysis  
 • Graph Theory  
 • Analyse de réseaux sociaux  
 • Chaînes de Markov
 
+---
+
 ### 10. NLP (Natural Language Processing)
 • NLTK  
 • Dialogflow
 
-### 11. Image Processing  
+---
+
+### 11. Image Processing 
+
+---
 
 ### 12. Deep Learning: Neural Networks
 • Rétropropagation du gradient  
 • CNN  
 • RNN  
+
+---
 
 ### 13. Créer un Dashboard avec Flask et Django
