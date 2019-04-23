@@ -40,8 +40,9 @@
 
 **C. Concepts mathématiques**  
 • Dérivées et Intégrales  
+• Dérivées partielles    
+• Gradient et Descente de gradient  
 • Convexité et Concavité  
-• Descente de gradient  
 • Boosting, bagging
 
 ---
