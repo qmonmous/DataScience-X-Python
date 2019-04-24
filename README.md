@@ -49,8 +49,7 @@
 
 ### [01. Introduction to Machine Learning](01.%20Introduction%20au%20Machine%20Learning.ipynb)  
 
-**A. Charger et comprendre les données**
-
+**A. Charger et comprendre les données**  
 • Des features pour prédire une target  
 • Déterminer la méthode de prédiction
 
@@ -80,7 +79,7 @@
 **c. Type transformations** (Categorical, dates values...)  
 **d. Distributions** (Log-transformation, Scaling, Standardization...)  
 **e. Features creations**  
-**f. Dimensional reduction**
+**f. Réduction dimensionnelle ?**
 
 ---
 
@@ -94,7 +93,18 @@
 ---
 
 ### 07. Unsupervised Machine Learning
-• Clustering   
+
+**A. Réduction dimensionnelle linéaire**  
+• PCA  
+• NMF  
+• Factor Analysis  
+
+**G. Réduction dimensionnelle non-linéaire**  
+• ACP à noyau  
+• Clustering hiérarchique  
+• K-Means  
+• DBSCAN  
+• Metrics  
 
 ---
 
