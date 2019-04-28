@@ -11,14 +11,15 @@
 03. Data Cleaning  
 04. Inférences statistiques  
 05. Features Engineering  
-06. Supervised Machine Learning  
-07. Unsupervised Machine Learning  
-08. Time Series Analysis  
-09. Graph Theory & Network Analysis  
-10. NLP (Natural Language Processing)  
-11. Image Processing  
-12. Deep Learning: Neural Networks  
-13. Créer un Dashboard avec Flask et Django  
+06. [Choisir et optimiser un modèle](06.%20Choisir%20et%20optimiser%20un%20modèle.ipynb)  
+07. Modèles supervisés  
+08. Modèles non supervisés
+09. Séries temporelles  
+10. [Théorie des graphes et Analyse de réseau](10.%20Théorie%20des%20graphes%20et%20Analyse%20de%20réseau.ipynb)  
+11. NLP (Natural Language Processing)  
+12. Image Processing  
+13. Deep Learning: Neural Networks  
+14. Créer un Dashboard avec Flask et Django  
 
 ---
 
@@ -60,19 +61,19 @@
 
 ---
 
-### [02. Analyse exploratoire (EDA)](02.%20Visualisations.ipynb)  
+### [02. Analyse exploratoire (EDA)](02.%20Analyse%20exploratoire%20(EDA).ipynb)  
 
 **A. Analyse univariée**  
-• x  
-• x  
+•   
+•   
 
 **B. Analyse bivariée**  
-• x  
-• x  
+•   
+•   
 
 **C. Analyse multivariée**  
-• x  
-• x  
+•   
+•   
 
 ---
 
@@ -88,17 +89,23 @@
 
 ---
 
-### 05. Features Engineering
-**a. Univariate visualizations**  
-**b. Multivariate visualizations**  
-**c. Type transformations** (Categorical, dates values...)  
-**d. Distributions** (Log-transformation, Scaling, Standardization...)  
-**e. Features creations**  
-**f. Réduction dimensionnelle ?**
+### 05. Features Engineering 
+**A. Transformations**  
+• Categorical features  
+• Date features  
+
+**B. Distributions**  
+• Log-transformation  
+• Scaling, Standardization  
+
+**C. Créer de nouvelles features  
+
+**D. Pour aller plus loin**  
+• La réduction dimensionnelle  
 
 ---
 
-### 06. Choisir et optimiser un modèle
+### 06. [Choisir et optimiser un modèle](06.%20Choisir%20et%20optimiser%20un%20modèle.ipynb)
 
 **A. Choisir un modèle**
 
@@ -129,12 +136,12 @@
 
 ### 07. Modèles supervisés
 
-**A. Les modèles de régression
+**A. Les modèles de régression**
 
 • Modèles classiques  
 • Méthodes ensemblistes  
 
-**B. Les modèles de classification
+**B. Les modèles de classification**
 
 • Modèles classiques  
 • Méthodes ensemblistes  
@@ -163,7 +170,7 @@
 
 ---
 
-### 10. Graph Theory & Network Analysis  
+### 10. [Théorie des graphes et Analyse de réseau](10.%20Théorie%20des%20graphes%20et%20Analyse%20de%20réseau.ipynb)
 • Graph Theory  
 • Analyse de réseaux sociaux  
 • Chaînes de Markov
@@ -171,8 +178,9 @@
 ---
 
 ### 11. NLP (Natural Language Processing)
+• Scraping  
 • NLTK  
-• Dialogflow
+• Dialogflow  
 
 ---
 
