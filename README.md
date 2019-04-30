@@ -11,11 +11,11 @@
 03. Data Cleaning  
 04. Inférences statistiques  
 05. Features Engineering  
-06. [Choisir et optimiser un modèle](06.%20Choisir%20et%20optimiser%20un%20modèle.ipynb)  
+[06. Choisir et optimiser un modèle](06.%20Choisir%20et%20optimiser%20un%20modèle.ipynb)  
 07. Modèles supervisés  
-08. Modèles non supervisés
+08. Modèles non supervisés  
 09. Séries temporelles  
-10. [Théorie des graphes et Analyse de réseau](10.%20Théorie%20des%20graphes%20et%20Analyse%20de%20réseau.ipynb)  
+[10. Théorie des graphes et Analyse de réseau](10.%20Théorie%20des%20graphes%20et%20Analyse%20de%20réseau.ipynb)  
 11. NLP (Natural Language Processing)  
 12. Image Processing  
 13. Deep Learning: Neural Networks  
@@ -105,7 +105,7 @@
 
 ---
 
-### 06. [Choisir et optimiser un modèle](06.%20Choisir%20et%20optimiser%20un%20modèle.ipynb)
+### [06. Choisir et optimiser un modèle](06.%20Choisir%20et%20optimiser%20un%20modèle.ipynb)
 
 **A. Choisir un modèle**
 
@@ -170,7 +170,7 @@
 
 ---
 
-### 10. [Théorie des graphes et Analyse de réseau](10.%20Théorie%20des%20graphes%20et%20Analyse%20de%20réseau.ipynb)
+### [10. Théorie des graphes et Analyse de réseau](10.%20Théorie%20des%20graphes%20et%20Analyse%20de%20réseau.ipynb)
 • Graph Theory  
 • Analyse de réseaux sociaux  
 • Chaînes de Markov
