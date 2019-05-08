@@ -4,28 +4,27 @@
 🇬🇧 Soon available in English
 
 ### –– _Sommaire :_
+ 
+[00. Introduction au Machine Learning](01.%20Introduction%20au%20Machine%20Learning.ipynb)  
+[01. Analyse exploratoire (EDA)](02.%20Analyse%20exploratoire%20(EDA).ipynb)  
+02. Data Cleaning  
+03. Inférences statistiques  
+04. Features Engineering  
+[05. Choisir et optimiser un modèle](05.%20Choisir%20et%20optimiser%20un%20modèle.ipynb)  
+06. Modèles supervisés  
+07. Modèles non supervisés  
+08. Introduction au Deep Learning  
+09. Introduction au Natural Language Processing  
+10. Introduction à l'Image Processing  
 
-[00. Introduction aux probabilités et statistiques](00.%20Introduction%20aux%20probabilités%20et%20statistiques.ipynb)  
-[01. Introduction to Machine Learning](01.%20Introduction%20au%20Machine%20Learning.ipynb)  
-[02. Analyse exploratoire (EDA)](02.%20Analyse%20exploratoire%20(EDA).ipynb)  
-03. Data Cleaning  
-04. Inférences statistiques  
-05. Features Engineering  
-[06. Choisir et optimiser un modèle](06.%20Choisir%20et%20optimiser%20un%20modèle.ipynb)  
-07. Modèles supervisés  
-08. Modèles non supervisés  
-09. Séries temporelles  
-[10. Théorie des graphes et Analyse de réseau](10.%20Théorie%20des%20graphes%20et%20Analyse%20de%20réseau.ipynb)  
-11. NLP (Natural Language Processing)  
-12. Image Processing  
-13. Deep Learning: Neural Networks  
-14. Créer un Dashboard avec Flask et Django  
+Bonus1. Introduction aux séries temporelles  
+[Bonus2. Introduction à l'analyse de réseau](Bonus2.%20Introduction%20à%20l'analyse%20de%20réseau)  
 
 ---
 
 ### –– _Sommaire detaillé :_
 
-### [00. Probabilités, statistiques et concepts mathématiques](00.%20Introduction%20aux%20probabilités%20et%20statistiques.ipynb)  
+### [00. Prérequis mathématiques](00.%20Introduction%20aux%20probabilités%20et%20statistiques.ipynb)  
 
 **A. Introduction aux probabilités**  
 • Concept de probabilité  
@@ -46,8 +45,9 @@
 • Dérivées partielles    
 • Gradient et Descente de gradient  
 • Convexité et Concavité  
-• Matrices, valeurs et vecteurs propres  
-• Boosting, bagging  
+• Matrices et déterminant  
+• Calculs matriciels  
+• Valeurs et Vecteurs propres  
 
 ---
 
@@ -57,31 +57,33 @@
 • Des features pour prédire une target  
 • Déterminer la méthode de prédiction
 
-**B. Entraîner son premier modèle**
+**B. Entraîner et évaluer son premier modèle**
 
 ---
 
 ### [02. Analyse exploratoire (EDA)](02.%20Analyse%20exploratoire%20(EDA).ipynb)  
 
 **A. Analyse univariée**  
-•   
-•   
 
 **B. Analyse bivariée**  
-•   
-•   
 
 **C. Analyse multivariée**  
-•   
-•   
 
 ---
 
 ### 03. Data Cleaning  
 **A. Duplicated and missing values**  
-• Mean imputation / Mod input (If numerical) or binarization (if categorical)
+• Gérer les duplicatas  
+• Gérer les données manquantes (NaN, null)  
 
-**B. Outliers**  
+**B. Outliers univariés**   
+• Approche visuelle (boxplot)  
+• IQR  
+• Z-score  
+• Sigma-clipping  
+
+**B. Outliers univariés**   
+• Approche visuelle (scatterplot)  
 
 ---
 
@@ -94,39 +96,33 @@
 • Categorical features  
 • Date features  
 
-**B. Distributions**  
+**B. Créer de nouvelles features**  
+
+**C. Distributions**  
 • Log-transformation  
 • Scaling, Standardization  
 
-**C. Créer de nouvelles features  
-
 **D. Pour aller plus loin**  
 • La réduction dimensionnelle  
+• Le clustering  
 
 ---
 
 ### [06. Choisir et optimiser un modèle](06.%20Choisir%20et%20optimiser%20un%20modèle.ipynb)
 
-**A. Choisir un modèle**
-
+**A. Choisir un modèle**  
 • Split  
 • Sélection du modèle  
 • Validation croisée  
 • Compromis biais-variance (under/overfitting)  
 
 **B. Optimiser un modèle (Hyperparameters tuning)**
-
 • GridSearchCV  
 • RandomizedSearchCV  
 
-**C. Metrics pour les régressions**
+**C. Metrics pour les régressions**  
 
-•   
-•   
-•   
-
-**D. Metrics pour les classifications**
-
+**D. Metrics pour les classifications**  
 • Données déséquilibrées et Approche naïve  
 • Les types d'erreurs  
 • Matrice de confusion  
@@ -136,13 +132,11 @@
 
 ### 07. Modèles supervisés
 
-**A. Les modèles de régression**
-
+**A. Les modèles de régression**  
 • Modèles classiques  
 • Méthodes ensemblistes  
 
-**B. Les modèles de classification**
-
+**B. Les modèles de classification**  
 • Modèles classiques  
 • Méthodes ensemblistes  
 
@@ -155,7 +149,7 @@
 • NMF  
 • Factor Analysis  
 
-**G. Réduction dimensionnelle non-linéaire**  
+**B. Réduction dimensionnelle non-linéaire**  
 • ACP à noyau  
 • Clustering hiérarchique  
 • K-Means  
@@ -164,35 +158,7 @@
 
 ---
 
-### 09. Time Series Analysis
-•  
-•  
-
----
-
-### [10. Théorie des graphes et Analyse de réseau](10.%20Théorie%20des%20graphes%20et%20Analyse%20de%20réseau.ipynb)
-• Graph Theory  
-• Analyse de réseaux sociaux  
-• Chaînes de Markov
-
----
-
-### 11. NLP (Natural Language Processing)
-• Scraping  
-• NLTK  
-• Dialogflow  
-
----
-
-### 12. Image Processing 
-
----
-
-### 13. Deep Learning: Neural Networks
-• Rétropropagation du gradient  
-• CNN  
-• RNN  
-
----
-
-### 14. Créer un Dashboard avec Flask et Django
+### 09. Introduction au Deep Learning  
+• Perceptrons et Réseaux de neurones  
+• Réseaux de neurones convolutifs (CNN)  
+• Réseaux de neurones récurrents (RNN)  
