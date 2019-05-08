@@ -23,7 +23,7 @@ Bonus4. Introduction au requêtage SQL et noSQL
 
 ## –– _Sommaire detaillé :_
 
-### [00. Introduction au Machine Learning](00.%20Introduction%20au%20Machine%20Learning)  
+## [00. Introduction au Machine Learning](00.%20Introduction%20au%20Machine%20Learning)  
 **A. Charger et comprendre les données**  
 • Des features pour prédire une target  
 • Déterminer la méthode de prédiction
@@ -46,7 +46,7 @@ Bonus4. Introduction au requêtage SQL et noSQL
 **C. Analyse multivariée**  
 
 
-### 02. Data Cleaning  
+## 02. Data Cleaning  
 **A. Duplicated and missing values**  
 • Gérer les duplicatas  
 • Gérer les données manquantes (NaN, null)  
@@ -61,7 +61,7 @@ Bonus4. Introduction au requêtage SQL et noSQL
 • Approche visuelle (scatterplot)  
 
 
-### 03. Inférences statistiques
+## 03. Inférences statistiques
 
 
 ### 04. Features Engineering 
@@ -80,7 +80,7 @@ Bonus4. Introduction au requêtage SQL et noSQL
 • Le clustering  
 
 
-### [05. Choisir et optimiser un modèle](05.%20Choisir%20et%20optimiser%20un%20modèle)
+## [05. Choisir et optimiser un modèle](05.%20Choisir%20et%20optimiser%20un%20modèle)
 
 **A. Choisir un modèle**  
 • Split  
@@ -101,7 +101,7 @@ Bonus4. Introduction au requêtage SQL et noSQL
 • ROC-AUC  
 
 
-### 06. Modèles supervisés
+## 06. Modèles supervisés
 
 **A. Les modèles de régression**  
 • Modèles classiques  
@@ -112,7 +112,7 @@ Bonus4. Introduction au requêtage SQL et noSQL
 • Méthodes ensemblistes  
 
 
-### 07. Modèles non supervisés
+## 07. Modèles non supervisés
 
 **A. Réduction dimensionnelle linéaire**  
 • PCA  
@@ -127,13 +127,13 @@ Bonus4. Introduction au requêtage SQL et noSQL
 • Metrics  
 
 
-### 08. Introduction au Deep Learning  
+## 08. Introduction au Deep Learning  
 • Perceptrons et Réseaux de neurones  
 • Réseaux de neurones convolutifs (CNN)  
 • Réseaux de neurones récurrents (RNN)  
 
 
-### Cheatsheets - Mathématiques
+## Cheatsheets - Mathématiques
 • Biais, Poids et Degrés de liberté  
 • Dérivées et Intégrales  
 • Dérivées partielles    
