@@ -2,7 +2,7 @@
 
 ![](img/intro.png)
 
-# _Sommaire :_
+## _Sommaire :_
 
 [00. Introduction au Machine Learning](00.%20Introduction%20au%20Machine%20Learning)  
 [01. Analyse exploratoire (EDA)](01.%20Analyse%20exploratoire%20(EDA))  
@@ -21,9 +21,7 @@ Bonus1. Introduction aux séries temporelles avec Prophet
 Bonus3. Introduction au Big Data avec pySpark  
 Bonus4. Introduction au requêtage SQL et noSQL  
 
----
-
-# –– _Sommaire detaillé :_
+## –– _Sommaire detaillé :_
 
 ### [00. Introduction au Machine Learning](00.%20Introduction%20au%20Machine%20Learning)  
 
