@@ -2,7 +2,7 @@
 
 ![](img/intro.png)
 
-## _Sommaire :_
+## –– _Sommaire :_
 
 [00. Introduction au Machine Learning](00.%20Introduction%20au%20Machine%20Learning)  
 [01. Analyse exploratoire (EDA)](01.%20Analyse%20exploratoire%20(EDA))  
@@ -24,15 +24,14 @@ Bonus4. Introduction au requêtage SQL et noSQL
 ## –– _Sommaire detaillé :_
 
 ### [00. Introduction au Machine Learning](00.%20Introduction%20au%20Machine%20Learning)  
-
 **A. Charger et comprendre les données**  
 • Des features pour prédire une target  
 • Déterminer la méthode de prédiction
 
 **B. Entraîner et évaluer son premier modèle**
 
-### [01. Analyse exploratoire (EDA)](01.%20Analyse%20exploratoire%20(EDA)) 
 
+## [01. Analyse exploratoire (EDA)](01.%20Analyse%20exploratoire%20(EDA)) 
 **A. Analyse univariée**  
 • Distribution et Théorème Central Limite  
 • Espérance et Moyenne, Médiane, Mode  
@@ -46,7 +45,6 @@ Bonus4. Introduction au requêtage SQL et noSQL
 
 **C. Analyse multivariée**  
 
----
 
 ### 02. Data Cleaning  
 **A. Duplicated and missing values**  
@@ -62,11 +60,9 @@ Bonus4. Introduction au requêtage SQL et noSQL
 **B. Outliers univariés**   
 • Approche visuelle (scatterplot)  
 
----
 
 ### 03. Inférences statistiques
 
----
 
 ### 04. Features Engineering 
 **A. Transformations**  
@@ -83,7 +79,6 @@ Bonus4. Introduction au requêtage SQL et noSQL
 • La réduction dimensionnelle  
 • Le clustering  
 
----
 
 ### [05. Choisir et optimiser un modèle](05.%20Choisir%20et%20optimiser%20un%20modèle)
 
@@ -105,7 +100,6 @@ Bonus4. Introduction au requêtage SQL et noSQL
 • Matrice de confusion  
 • ROC-AUC  
 
----
 
 ### 06. Modèles supervisés
 
@@ -117,7 +111,6 @@ Bonus4. Introduction au requêtage SQL et noSQL
 • Modèles classiques  
 • Méthodes ensemblistes  
 
----
 
 ### 07. Modèles non supervisés
 
@@ -133,14 +126,12 @@ Bonus4. Introduction au requêtage SQL et noSQL
 • DBSCAN  
 • Metrics  
 
----
 
 ### 08. Introduction au Deep Learning  
 • Perceptrons et Réseaux de neurones  
 • Réseaux de neurones convolutifs (CNN)  
 • Réseaux de neurones récurrents (RNN)  
 
----
 
 ### Cheatsheets - Mathématiques
 • Biais, Poids et Degrés de liberté  
