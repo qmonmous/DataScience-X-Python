@@ -1,6 +1,8 @@
+# Data Science *X* Python
+
 ![](img/intro.png)
 
-### –– _Sommaire :_
+# _Sommaire :_
 
 [00. Introduction au Machine Learning](00.%20Introduction%20au%20Machine%20Learning)  
 [01. Analyse exploratoire (EDA)](01.%20Analyse%20exploratoire%20(EDA))  
@@ -21,7 +23,7 @@ Bonus4. Introduction au requêtage SQL et noSQL
 
 ---
 
-### –– _Sommaire detaillé :_
+# –– _Sommaire detaillé :_
 
 ### [00. Introduction au Machine Learning](00.%20Introduction%20au%20Machine%20Learning)  
 
@@ -30,8 +32,6 @@ Bonus4. Introduction au requêtage SQL et noSQL
 • Déterminer la méthode de prédiction
 
 **B. Entraîner et évaluer son premier modèle**
-
----
 
 ### [01. Analyse exploratoire (EDA)](01.%20Analyse%20exploratoire%20(EDA)) 
 
