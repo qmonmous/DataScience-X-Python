@@ -1,7 +1,4 @@
-# DataScience X Python
-
-🇫🇷 Cours de Data Science en français  
-🇬🇧 Soon available in English
+![](img/intro.png)
 
 ### –– _Sommaire :_
 
