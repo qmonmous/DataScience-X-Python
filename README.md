@@ -147,7 +147,7 @@ Bonus4. Introduction au requêtage SQL et noSQL
 
 ---
 
-### Cheatsheets - Mathématiques**  
+### Cheatsheets - Mathématiques
 • Biais, Poids et Degrés de liberté  
 • Dérivées et Intégrales  
 • Dérivées partielles    
