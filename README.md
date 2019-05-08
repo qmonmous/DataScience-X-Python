@@ -1,4 +1,4 @@
-# Data Science *X* Python
+# Data Science *X* Python (🇫🇷)
 
 ![](img/intro.png)
 
@@ -64,7 +64,7 @@ Bonus4. Introduction au requêtage SQL et noSQL
 ## 03. Inférences statistiques
 
 
-### 04. Features Engineering 
+## 04. Features Engineering 
 **A. Transformations**  
 • Categorical features  
 • Date features  
