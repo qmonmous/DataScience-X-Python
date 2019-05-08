@@ -5,13 +5,12 @@
 
 ### –– _Sommaire :_
 
-**• • • Machine Learning**  
-[00. Introduction au Machine Learning](01.%20Introduction%20au%20Machine%20Learning.ipynb)  
-[01. Analyse exploratoire (EDA)](02.%20Analyse%20exploratoire%20(EDA).ipynb)  
+[00. Introduction au Machine Learning](00.%20Introduction%20au%20Machine%20Learning)  
+[01. Analyse exploratoire (EDA)](01.%20Analyse%20exploratoire%20(EDA))  
 02. Data Cleaning  
 03. Inférences statistiques  
 04. Features Engineering  
-[05. Choisir et optimiser un modèle](05.%20Choisir%20et%20optimiser%20un%20modèle.ipynb)  
+[05. Choisir et optimiser un modèle](05.%20Choisir%20et%20optimiser%20un%20modèle)  
 06. Modèles supervisés  
 07. Modèles non supervisés  
 08. Introduction au Deep Learning  
@@ -27,34 +26,7 @@ Bonus4. Introduction au requêtage SQL et noSQL
 
 ### –– _Sommaire detaillé :_
 
-### [00. Prérequis mathématiques](00.%20Introduction%20aux%20probabilités%20et%20statistiques.ipynb)  
-
-**A. Introduction aux probabilités**  
-• Concept de probabilité  
-• Théorème de Bayes
-
-**B. Introduction aux statistiques**  
-• Distribution et Théorème Central Limite  
-• Espérance et Moyenne, Médiane, Mode  
-• Dispersion : Variance, Écart-type  
-• Forme : Skewness et Kurtosis  
-• Concentration : Courbe de Lorenz, Indice de Gini  
-• Fréquences  
-• Bonus : moyennes harmoniques et quadratiques   
-
-**C. Concepts mathématiques**  
-• Biais, Poids et Degrés de liberté  
-• Dérivées et Intégrales  
-• Dérivées partielles    
-• Gradient et Descente de gradient  
-• Convexité et Concavité  
-• Matrices et déterminant  
-• Calculs matriciels  
-• Valeurs et Vecteurs propres  
-
----
-
-### [01. Introduction au Machine Learning](01.%20Introduction%20au%20Machine%20Learning.ipynb)  
+### [00. Introduction au Machine Learning](00.%20Introduction%20au%20Machine%20Learning)  
 
 **A. Charger et comprendre les données**  
 • Des features pour prédire une target  
@@ -64,9 +36,16 @@ Bonus4. Introduction au requêtage SQL et noSQL
 
 ---
 
-### [02. Analyse exploratoire (EDA)](02.%20Analyse%20exploratoire%20(EDA).ipynb)  
+### [01. Analyse exploratoire (EDA)](01.%20Analyse%20exploratoire%20(EDA)) 
 
 **A. Analyse univariée**  
+• Distribution et Théorème Central Limite  
+• Espérance et Moyenne, Médiane, Mode  
+• Dispersion : Variance, Écart-type  
+• Forme : Skewness et Kurtosis  
+• Concentration : Courbe de Lorenz, Indice de Gini  
+• Fréquences  
+• Bonus : moyennes harmoniques et quadratiques   
 
 **B. Analyse bivariée**  
 
@@ -74,7 +53,7 @@ Bonus4. Introduction au requêtage SQL et noSQL
 
 ---
 
-### 03. Data Cleaning  
+### 02. Data Cleaning  
 **A. Duplicated and missing values**  
 • Gérer les duplicatas  
 • Gérer les données manquantes (NaN, null)  
@@ -90,11 +69,11 @@ Bonus4. Introduction au requêtage SQL et noSQL
 
 ---
 
-### 04. Inférences statistiques
+### 03. Inférences statistiques
 
 ---
 
-### 05. Features Engineering 
+### 04. Features Engineering 
 **A. Transformations**  
 • Categorical features  
 • Date features  
@@ -111,7 +90,7 @@ Bonus4. Introduction au requêtage SQL et noSQL
 
 ---
 
-### [06. Choisir et optimiser un modèle](06.%20Choisir%20et%20optimiser%20un%20modèle.ipynb)
+### [05. Choisir et optimiser un modèle](05.%20Choisir%20et%20optimiser%20un%20modèle)
 
 **A. Choisir un modèle**  
 • Split  
@@ -133,7 +112,7 @@ Bonus4. Introduction au requêtage SQL et noSQL
 
 ---
 
-### 07. Modèles supervisés
+### 06. Modèles supervisés
 
 **A. Les modèles de régression**  
 • Modèles classiques  
@@ -145,7 +124,7 @@ Bonus4. Introduction au requêtage SQL et noSQL
 
 ---
 
-### 08. Modèles non supervisés
+### 07. Modèles non supervisés
 
 **A. Réduction dimensionnelle linéaire**  
 • PCA  
@@ -161,7 +140,22 @@ Bonus4. Introduction au requêtage SQL et noSQL
 
 ---
 
-### 09. Introduction au Deep Learning  
+### 08. Introduction au Deep Learning  
 • Perceptrons et Réseaux de neurones  
 • Réseaux de neurones convolutifs (CNN)  
 • Réseaux de neurones récurrents (RNN)  
+
+---
+
+### Cheatsheets - Mathématiques**  
+• Biais, Poids et Degrés de liberté  
+• Dérivées et Intégrales  
+• Dérivées partielles    
+• Gradient et Descente de gradient  
+• Convexité et Concavité  
+• Matrices et déterminant  
+• Calculs matriciels  
+• Valeurs et Vecteurs propres  
+
+• Concept de probabilité  
+• Théorème de Bayes
