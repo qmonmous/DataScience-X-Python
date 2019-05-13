@@ -12,7 +12,7 @@
 [05. Choisir et optimiser un modèle](05.%20Choisir%20et%20optimiser%20un%20modèle)  
 06. Modèles supervisés  
 07. Modèles non supervisés  
-08. Introduction au Deep Learning  
+08. [Introduction au Deep Learning](08.%20Introduction%20au%20Deep%20Learning)   
 09. Introduction au Natural Language Processing  
 10. Introduction à l'Image Processing  
 
